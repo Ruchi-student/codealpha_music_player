@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    transition: background-color 2s ease;
+    min-height: 100vh;
+}
+
+.player-container {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#search, #category {
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+}
+
+ul#playlist {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul#playlist li {
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+ul#playlist li:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button, #volume {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
